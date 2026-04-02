@@ -2,6 +2,8 @@
 
 This is the source code for the website of Buruh Coding Internasional.
 
+Figma: https://www.figma.com/design/w9uPqQa92WXnP3Jmsf5HzX/buruhcoding.id?node-id=0-1&p=f&t=2u3YIuxr1fpoXGaQ-0
+
 ## 🚀 Project Structure
 
 Inside of this (Astro) project, you'll see the following folders and files:
