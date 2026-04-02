@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://buruhcoding.id',
+  site: 'https://buruh-coding.github.io',
+  base: '/website',
   integrations: [sitemap()]
 });
