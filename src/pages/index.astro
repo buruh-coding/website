@@ -1,4 +1,5 @@
 ---
+import "../styles/main.scss";
 
 ---
 
@@ -11,65 +12,16 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Buruh Coding Internasional</title>
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
-
-			html {
-				font-family: "Kode Mono", monospace;
-				font-optical-sizing: auto;
-				font-weight: 400;
-				font-style: normal;
-				color: #fff;
-				line-height: 1.5;
-				font-size: 16px;
-			}
-
-			body {
-				margin: 0;
-				padding: 0;
-				background:
-					url("/background.svg") repeat-x center / auto 100% fixed,
-					linear-gradient(180deg, #0F1D31, #0F205B);
-				background-attachment: fixed;
-			}
-
-			h1 {
-				font-size: 3rem;
-			}
-			h2 {
-				font-size: 2rem;
-			}
-			h3 {
-				font-size: 1.5rem;
-			}
-			h4 {
-				font-size: 1.25rem;
-			}
-			h5 {
-				font-size: 1rem;
-			}
-			h6 {
-				font-size: 0.875rem;
-			}
-
-			.logo {
-				width: 80%;
-				max-width: 30rem;
-				height: auto;
-				display: block;
-			}
-
-			.container {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				height: 100vh;
-			}
-		</style>
 	</head>
 	<body>
 		<div class="container">
 			<img src="/full_logo.svg" alt="Buruh Coding Internasional" class="logo" />
+			<br style="margin-top: 2rem;" />
+			<p>
+				Let's <a href="https://discord.com/invite/PbrFrmdPk">
+					Join our Discord
+				</a>!
+			</p>
 		</div>
 	</body>
 </html>
